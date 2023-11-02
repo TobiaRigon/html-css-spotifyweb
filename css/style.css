@@ -43,6 +43,7 @@ footer{
     background-color: rgb(20, 22, 29);
     padding-top: 90px;
     position: relative;
+    overflow-y: auto;
    
 }
 
@@ -56,6 +57,7 @@ footer{
 
 .side_container{
     padding: 20px;
+    width: 290px;
 }
 
 .logo{
