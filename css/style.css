@@ -18,14 +18,17 @@ body{
 main{
     height: calc(100vh - 90px);
     display: flex;
-    color: rgb(187, 187, 187);
+    color: rgb(163, 163, 163);
     
    
 }
 
 footer{
-    height: 90px;
+    color: rgb(163, 163, 163);
     background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #sidebar{
@@ -55,8 +58,18 @@ footer{
     width: 100%;
 }
 
-.side_container{
+.container{
     padding: 20px;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+/* sidebar */
+.sidebar .container{
     width: 290px;
 }
 
@@ -67,3 +80,50 @@ footer{
 .profilo{
     border-top: 1px solid rgb(187, 187, 187);
 }
+
+
+/* footer */
+
+footer .container .row{
+   justify-content: space-between;
+   flex-grow: 1;
+   max-width: 290px;
+}
+
+
+footer .container{
+    height: 100px;
+    padding: 20px 10px
+}
+
+footer h2{
+    color: white;
+    font-size: 20px;
+}
+
+footer h3{
+   font-weight: normal;
+    font-size: 16px;
+}
+
+
+
+/* riproduttore basso sx */
+footer .container:first-child {
+    flex-grow: 1;
+    max-width: 290px;
+ }
+/*  */
+
+footer .col img{
+    height: 60px;
+    margin-right: 10px;
+}
+
+.now_playing{
+    display: flex;
+    align-items: center;
+}
+
+
+
