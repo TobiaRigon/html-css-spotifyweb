@@ -35,6 +35,11 @@ footer{
     align-items: center;
 }
 
+footer .center_container{
+    width: calc(100% / 3);
+    
+}
+
 #sidebar{
     height: 100%;
     width: 290px;
@@ -81,9 +86,12 @@ footer{
 
 .logo{
     width: 55%;
+    margin-bottom: 5px;
 }
 .logo_small{
+    width: 110%;
     display: none;
+    margin:7px 0 30px 0;
 }
 
 .avatar{
@@ -203,6 +211,11 @@ footer .container:first-child {
  }
 /*  */
 
+footer .container:last-child {
+    flex-grow: 1;
+    max-width: 290px;
+}
+
 footer .col img{
     height: 60px;
     margin-right: 10px;
@@ -213,5 +226,44 @@ footer .col img{
     align-items: center;
 }
 
+
+.controls{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.barr{
+    height: 3px;
+    background-color:rgb(169, 169, 169);
+    flex-grow: 1;
+    margin: 0 20px;
+    position: relative;
+}
+
+.played_barr{
+    height: 3px;
+    background-color:rgb(255, 255, 255);
+    width: 22%;
+    position: absolute;
+    left: 0;
+
+}
+
+.fa-tv{
+    margin:0 10px;
+}
+
+.volume{
+    display: inline-block;
+  width: 100px;
+}
+
+.side_controls{
+    display: flex;
+    align-items: center;
+}
 
 
