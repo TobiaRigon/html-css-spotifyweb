@@ -12,6 +12,7 @@
 
 body{
     height: 100vh;
+    overflow: hidden;
 }
 
 
@@ -71,6 +72,8 @@ footer{
     align-items: center;
 }
 
+
+
 /* sidebar */
 .sidebar .container{
     width: 290px;
@@ -85,9 +88,46 @@ footer{
 }
 
 #playlist{
+    margin: 20px 0;
     overflow-y:auto;
+    max-height:40%;
 }
 
+#playlist ul{
+   
+    overflow-y:auto;
+    max-height:40%;
+}
+
+
+
+#sidebar  a{
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+}
+
+#sidebar ul{
+ list-style-type: none; 
+ margin: 20px 0;
+}
+
+#sidebar ul li{
+   
+    margin: 10px 0;
+   }
+
+#sidebar h4{
+   color: white;
+   margin:30px 0 15px  0;
+   }
+
+   #sidebar a i{
+    font-size: 24px;
+   }
+
+   #home a{
+    color: white;
+}
 
 /* footer */
 
