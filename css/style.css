@@ -82,9 +82,20 @@ footer{
 .logo{
     width: 55%;
 }
+.logo_small{
+    display: none;
+}
+
+.avatar{
+    display: none;
+}
 
 .profilo{
     border-top: 1px solid rgb(187, 187, 187);
+}
+
+.fa-circle-down{
+    margin-bottom: 10px;
 }
 
 #playlist{
@@ -98,8 +109,6 @@ footer{
     overflow-y:auto;
     max-height:40%;
 }
-
-
 
 #sidebar  a{
     color: rgb(163, 163, 163);
@@ -127,6 +136,38 @@ footer{
 
    #home a{
     color: white;
+}
+
+
+/* Sideba _ MQ_ =================== */
+@media all and (max-width:450px){
+    #sidebar span{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+   .logo_small{
+        display: block;
+    }
+
+    #sidebar h4, #sidebar span, #sidebar #playlist, #new_playlist{
+        display: none;
+    }
+
+    #sidebar{
+        width: 65px;
+    }
+
+    .profilo{
+        display: none;
+    }
+
+    .avatar{
+        display: block;
+    }
 }
 
 /* footer */
