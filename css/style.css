@@ -136,6 +136,7 @@ footer .center_container{
 #sidebar h4{
    color: white;
    margin:30px 0 15px  0;
+   width: 290px;
    }
 
    #sidebar a i{
@@ -217,22 +218,31 @@ footer .center_container{
 #main_content h2{
     color: white;
     font-size: 28px;
+    margin-top: 25px;
 }
 
 #main_content h3{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+#main_content h4{
+
+    font-size: 14px;
     margin-bottom: 5px;
 }
 
 
 
 
-.row{
-    display: flex;
+
+main .row{
     flex-wrap: wrap;
     width: 100%;
     margin-top: 30px;
+    align-items: flex-start;
 }
 
 .col{
@@ -248,6 +258,10 @@ footer .center_container{
 .card img{
     width: 100%;
     padding: 10px;
+}
+
+.round img{
+   border-radius: 50%;
 }
 
     
